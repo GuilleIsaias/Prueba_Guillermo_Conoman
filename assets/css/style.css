@@ -1,8 +1,25 @@
-navbar {
-    background-color: #17ABA7;
+.navbar {
+    background-color: #2b9ea6;
 }
 
-#navtext, 
+.navbar-brand,
+#title-foot {
+  font-family: "Workbench", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+
+#title-body{
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#navtext,
 .navbar-brand,
 .nav-link {
     color: white;
@@ -17,8 +34,13 @@ navbar {
     padding: 20px;
 }
 
+#icon-background {
+    background-color: #2b9ea6;
+    padding: 5px;
+}
+
 #horizontal-line {
-    width :95%;
+    width: 95%;
     height: 1px;
     border: 0 none;
     margin-right: auto;
@@ -28,24 +50,23 @@ navbar {
     background-color: white;
 }
 
-.col-who {
-    width: 24% ;
-    padding: 5px;
-}
 
 .card-color {
-    background-color:#2b9ea6 ;
+    background-color: #2b9ea6;
     color: white;
 }
 
 #footfoot {
-    background-color: #17ABA7;
+    background-color: #2b9ea6;
     color: white;
     padding: 30px;
 }
 
-
-
-
-
-
+#brands,
+a,
+a:hover,
+a:active,
+a:visited,
+i {
+    color: white;
+}
