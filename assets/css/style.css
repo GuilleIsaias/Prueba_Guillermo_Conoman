@@ -1,0 +1,51 @@
+navbar {
+    background-color: #17ABA7;
+}
+
+#navtext, 
+.navbar-brand,
+.nav-link {
+    color: white;
+}
+
+#quienes-somos,
+#destacados,
+#contacto {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#horizontal-line {
+    width :95%;
+    height: 1px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.col-who {
+    width: 24% ;
+    padding: 5px;
+}
+
+.card-color {
+    background-color:#2b9ea6 ;
+    color: white;
+}
+
+#footfoot {
+    background-color: #17ABA7;
+    color: white;
+    padding: 30px;
+}
+
+
+
+
+
+
